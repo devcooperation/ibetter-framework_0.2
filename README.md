@@ -1,5 +1,6 @@
 # ibetter-framework_0.2
 ibetter内部使用框架
+
 1.读写分离
 	数据源配置:
 	 <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"> 
@@ -7,7 +8,6 @@ ibetter内部使用框架
 		<property name="url"  value="jdbc:mysql://localhost:3306/zm_test?useUnicode=true" ></property>
 		<property name="username"  value="root" ></property>
 		<property name="password"  value="123qwe" ></property>
-	 
 	</bean>
 	
 	 <bean id="dataSource1" class="org.apache.commons.dbcp2.BasicDataSource"> 
