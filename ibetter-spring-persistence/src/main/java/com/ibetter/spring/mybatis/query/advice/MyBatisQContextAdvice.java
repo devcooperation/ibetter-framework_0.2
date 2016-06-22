@@ -137,6 +137,8 @@ public class MyBatisQContextAdvice {
 				logger.debug("Current dbSource-->"+dbsource);
 			}
 			DBContextHolder.initDb(dbsource);
+		}else{
+			DBContextHolder.initDb(null);
 		}
 	}
 
